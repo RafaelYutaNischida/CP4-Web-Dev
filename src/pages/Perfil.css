@@ -1,0 +1,59 @@
+.perfil__stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.perfil__titulo-secao {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.perfil__titulo-secao svg {
+  color: var(--accent);
+}
+
+.perfil__contador {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.1rem 0.5rem;
+}
+
+.perfil__favoritos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 1.5rem 1rem;
+}
+
+.perfil__favorito {
+  position: relative;
+}
+
+.perfil__remover-favorito {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  z-index: 2;
+  background: rgba(18, 18, 24, 0.85);
+  border: 1px solid var(--border);
+  color: var(--text);
+  border-radius: 999px;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.perfil__remover-favorito:hover {
+  color: var(--danger);
+  border-color: var(--danger);
+}

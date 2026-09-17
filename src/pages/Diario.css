@@ -1,0 +1,32 @@
+.diario-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 1.5rem 1rem;
+  margin-top: 1.5rem;
+}
+
+.diario-item {
+  position: relative;
+}
+
+.diario-item__remover {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  z-index: 2;
+  background: rgba(18, 18, 24, 0.85);
+  border: 1px solid var(--border);
+  color: var(--text);
+  border-radius: 999px;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.diario-item__remover:hover {
+  color: var(--danger);
+  border-color: var(--danger);
+}

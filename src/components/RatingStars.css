@@ -1,0 +1,16 @@
+.rating-stars {
+  display: flex;
+  gap: 0.15rem;
+}
+
+.rating-stars__btn {
+  background: none;
+  border: none;
+  padding: 2px;
+  cursor: pointer;
+  display: flex;
+}
+
+.rating-stars--readonly .rating-stars__btn {
+  cursor: default;
+}
