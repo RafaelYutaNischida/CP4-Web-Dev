@@ -72,4 +72,4 @@ gerado foi revisado e é de entendimento dos integrantes.
 
 ### Deploy
 
-O projeto está publicado na Vercel: [link do site publicado aqui].
+O projeto está publicado na Vercel: cp-4-web-dev-qxsk-ashen.vercel.app
