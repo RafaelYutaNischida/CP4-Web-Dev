@@ -5,8 +5,8 @@ de filmes e séries.
 
 ## Integrantes
 
-- [Nome 1]
-- [Nome 2]
+- João Gabriel | RM - 572017
+- Rafael Nischida | RM - 570552
 
 ## Problema
 
